@@ -1,0 +1,49 @@
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> #Symmetric_difference_update()
+>>> a={2,3,4,5,6,7,8,9}
+>>> b={5,6,7,8,9,10,11}
+>>> a.symmetric_difference_update(b)
+>>> a
+{2, 3, 4, 10, 11}
+>>> b.symmetric_difference_update(a)
+>>> b
+{2, 3, 4, 5, 6, 7, 8, 9}
+>>> #Add
+>>> a={3,4,5,6,7,8}
+>>> a.add(10)
+>>> a
+{3, 4, 5, 6, 7, 8, 10}
+>>> #Copy
+>>> {3,4,5,6,7,8,10}
+{3, 4, 5, 6, 7, 8, 10}
+>>> b=a.copy()
+>>> b
+{3, 4, 5, 6, 7, 8, 10}
+>>> #Clear()
+>>> a.clear()
+>>> a
+set()
+>>> c=set()
+>>> c.add(30)
+>>> c
+{30}
+>>> #pop
+>>> a={5,6,7,8,9}
+>>> a.pop()
+5
+>>> a
+{6, 7, 8, 9}
+>>> a.remove(7)
+>>> a
+{6, 8, 9}
+>>> a={2,3,4,5,6}
+>>> a.discard(4)
+>>> a
+{2, 3, 5, 6}
+>>> b={4,5,6,7}
+>>> c={8,9,10,11}
+>>> b.isdisjoint(a)
+False
+b.isdisjoint(c)
+True

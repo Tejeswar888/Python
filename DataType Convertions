@@ -1,0 +1,117 @@
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> #Datatype Convertions
+>>> #int()
+>>> int(9)
+9
+>>> int("pooja")
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    int("pooja")
+ValueError: invalid literal for int() with base 10: 'pooja'
+>>> int(True)
+1
+>>> int(False)
+0
+>>> int(10.9)
+10
+>>> int(6+9j)
+Traceback (most recent call last):
+  File "<pyshell#7>", line 1, in <module>
+    int(6+9j)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'complex'
+>>> #float
+>>> float(6)
+6.0
+>>> float(7.9)
+7.9
+>>> float("python)
+...       
+SyntaxError: unterminated string literal (detected at line 1)
+>>> float(7+9j)
+...       
+Traceback (most recent call last):
+  File "<pyshell#12>", line 1, in <module>
+    float(7+9j)
+TypeError: float() argument must be a string or a real number, not 'complex'
+>>> float(True)
+...       
+1.0
+>>> flaot(False)
+...       
+Traceback (most recent call last):
+  File "<pyshell#14>", line 1, in <module>
+    flaot(False)
+NameError: name 'flaot' is not defined. Did you mean: 'float'?
+>>> float(False)
+...       
+0.0
+#str()
+      
+str(6)
+      
+'6'
+str(5.6)
+      
+'5.6'
+str("hi")
+      
+'hi'
+str(6+9j)
+      
+'(6+9j)'
+str(True)
+      
+'True'
+str(False)
+      
+'False'
+#Complex
+      
+Complex(7)
+      
+Traceback (most recent call last):
+  File "<pyshell#24>", line 1, in <module>
+    Complex(7)
+NameError: name 'Complex' is not defined. Did you mean: 'complex'?
+complex(7)
+      
+(7+0j)
+complex(7.8)
+      
+(7.8+0j)
+complex("hello")
+      
+Traceback (most recent call last):
+  File "<pyshell#27>", line 1, in <module>
+    complex("hello")
+ValueError: complex() arg is a malformed string
+complex(5+9J)
+      
+(5+9j)
+complex(True)
+      
+(1+0j)
+complex(False)
+      
+0j
+#bool
+      
+bool(5)
+      
+True
+bool(5.6)
+      
+True
+bool("java")
+      
+True
+bool(5+9j)
+      
+True
+bool(True)
+      
+True
+bool(False)
+      
+False

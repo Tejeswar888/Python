@@ -1,0 +1,10 @@
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> #Membership
+>>> a=3,4,5,6,7,8,9,10
+>>> 8 in a
+True
+>>> 20 in a
+False
+>>> 20 not in a
+True

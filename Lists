@@ -1,0 +1,104 @@
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> #List[]
+>>> a=[3,45.6,"python",9+7j,True,False]
+>>> print(a)
+[3, 45.6, 'python', (9+7j), True, False]
+>>> type(a)
+<class 'list'>
+>>> b=9
+>>> type(b)
+<class 'int'>
+>>> c=[9]
+>>> type(c)
+<class 'list'>
+>>> a=["python","java","c"]
+>>> a
+['python', 'java', 'c']
+>>> a.append("c++")
+>>> a
+['python', 'java', 'c', 'c++']
+>>> a.append(["m1","ai"])
+>>> a
+['python', 'java', 'c', 'c++', ['m1', 'ai']]
+>>> #extend()
+>>> a=["java","html","css"]
+>>> a.extend(["js","bs"])
+>>> a
+['java', 'html', 'css', 'js', 'bs']
+>>> #insert()
+>>> b=["apple","banana","grapes"]
+>>> b.insert(1,"mango")
+>>> b
+['apple', 'mango', 'banana', 'grapes']
+>>> a=["kiwi","mango","apple","dragon","berry"]
+>>> #sort()
+>>> a.sort)()
+SyntaxError: unmatched ')'
+>>> a.sort()
+>>> a
+['apple', 'berry', 'dragon', 'kiwi', 'mango']
+>>> b=[9,6,3,0,2,4,20]
+>>> b.sort()
+>>> b
+[0, 2, 3, 4, 6, 9, 20]
+>>> [0, 2, 3, 4, 6, 9, 20]
+[0, 2, 3, 4, 6, 9, 20]
+>>> #reverse()
+a=["c","java","html","css"]
+a.reverse()
+a
+['css', 'html', 'java', 'c']
+b=[9,10,12,14,15]
+b.reverse()
+b
+[15, 14, 12, 10, 9]
+#pop
+a=["black","white","red","blue"]
+a.pop()
+'blue'
+a
+['black', 'white', 'red']
+a.pop(2)
+'red'
+a
+['black', 'white']
+a.remove("white")
+a
+['black']
+a=[3,4,5,6,7,8,9,10]
+a.pop()
+10
+a
+[3, 4, 5, 6, 7, 8, 9]
+a.pop(4)
+7
+a
+[3, 4, 5, 6, 8, 9]
+a=["pooja","priya","sweety","cuty"]
+a.copy()
+['pooja', 'priya', 'sweety', 'cuty']
+b=a.copy()
+b
+['pooja', 'priya', 'sweety', 'cuty']
+a.clear()
+a
+[]
+b=[]
+a.append("hi")
+a
+['hi']
+a=["hi","hello","how"]
+len(a)
+3
+b=["hello"]
+len(b)
+1
+b="hello"
+len(b)
+5
+c=["hello"]
+len(c)
+1
+a.count("hello")
+1

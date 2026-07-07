@@ -1,0 +1,66 @@
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+#Concatenation
+a="code"
+b="gnan"
+print(a+b)
+codegnan
+a="python"
+b="course"
+print(a+" "+b)
+python course
+fname="pooja"
+lname="ch"
+print(fname+lname)
+poojach
+print(fname+" "+lname)
+pooja ch
+print(fname.title()+" "+lname.titlt())
+Traceback (most recent call last):
+  File "<pyshell#11>", line 1, in <module>
+    print(fname.title()+" "+lname.titlt())
+AttributeError: 'str' object has no attribute 'titlt'. Did you mean: 'title'?
+print(fname.title()+" "+lname.title())
+Pooja Ch
+#formating
+a=2
+b=4
+>>> print(a+b)
+6
+>>> print("the sum is",a+b)
+the sum is 6
+>>> city="vja"
+>>> print("the city is",city)
+the city is vja
+>>> # format method()
+>>> a="motu"
+>>> b="pathlu"
+>>> print("hello",a+b)
+hello motupathlu
+>>> print("hello {}".format(a,b))
+hello motu
+>>> print("hello {} {}".format(a,b))
+hello motu pathlu
+>>> print("hello {} hello {}".format(a,b))
+hello motu hello pathlu
+>>> a="sita"
+>>> b="ram"
+>>> print(f"hello {a}{b}")
+hello sitaram
+>>> print("hello {a}{b}")
+hello {a}{b}
+>>> print(f"hello {a} {b}")
+hello sita ram
+>>> print(f"hello {a} hello {b}")
+hello sita hello ram
+>>> a=4
+>>> b=5
+>>> print(a*b)
+20
+>>> c=a*b
+>>> print("the product is {}".format(c))
+the product is 20
+>>> print(f"the product is {c}")
+the product is 20
+>>> print("the product is {}".format(a*b))
+the product is 20

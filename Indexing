@@ -1,0 +1,44 @@
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> #Indexing
+>>> a="vijayawada"
+>>> a[0]
+'v'
+>>> a[1]
+'i'
+>>> a[5]
+'a'
+>>> a[0]+a[1]+a[2]+a[3]+a[4]+a[5]
+'vijaya'
+>>> a="i am in class"
+>>> a[8]+a[9]+a[10]+a[11]+a[12]
+'class'
+>>> a[2]+a[3]
+'am'
+>>> a[5]+a[6]
+'in'
+>>> a=simple is better than complex
+SyntaxError: invalid syntax
+>>> a="simple is better than complex"
+>>> a[10]+a[11]+a[12]+a[13]+a[14]+a[15]
+'better'
+>>> a[0]+a[1]+a[2]+a[3]+a[4]+a[5}
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '['
+>>> a[0]+a[1]+a[2]+a[3]+a[4]+a[5]
+'simple'
+>>> a[22]+a[23]+a[24]+a[25]+a[26]+a[27]+a[28]
+'complex'
+>>> a="i am learning python"
+>>> a[-6]+a[-5]+a[-4]+a[-3]+a[-2]+a[-1]
+'python'
+>>> a[-15]+a[-14]+a[-13]+a[-12]+a[-11]
+'learn'
+>>> a[-17]+a[-16]
+'m '
+>>> a[-18]+a[-17]
+'am'
+>>> a="python full stack"
+>>> a[-5]+a[-4]+a[-3]+a[-2]+a[-1]
+'stack'
+>>> a[-9]+a[-8]+a[-7]+a[-6]
+'ull '

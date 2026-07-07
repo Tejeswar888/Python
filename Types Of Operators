@@ -1,0 +1,8 @@
+                  Operators
+
+Arthemetic Operators -> +,-,*,//,/,**,%
+Assignment Operators -> +=,-=,*=,//=,/=,**=,%=
+Comparision Operators -> <,>,<=,>=,!=,==
+Logical Operators -> and,or,not
+Identity Operators -> is,is not
+Membership Operators -> in,not in

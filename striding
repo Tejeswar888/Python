@@ -1,0 +1,40 @@
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> #Striding
+>>> a="data science"
+>>> a[::]
+'data science'
+>>> a[::1]
+'data science'
+>>> a[::2]
+'dt cec'
+>>> 'dt cec'
+'dt cec'
+>>> a="machine learning"
+>>> a[::5]
+'mnag'
+>>> a[::7]
+'m n'
+>>> a[::2]
+'mcielann'
+>>> a[3:11]
+'hine lea'
+>>> a[:8]
+'machine '
+>>> a[9:]
+'earning'
+>>> a[::4]
+'miln'
+>>> a[::10]
+'ma'
+>>> a="cloud computing"
+>>> a[1:9:2]
+'lu o'
+>>> a[2:13:3]
+'o mt'
+>>> a[6:14:4]
+'cu'
+>>> a[5:12:2]
+' opt'
+>>> a[3:9:5]
+'um'

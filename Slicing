@@ -1,0 +1,44 @@
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> #slicing
+>>> a="codegnan"
+>>> a[0:4]
+'code'
+>>> a[4:8]
+'gnan'
+>>> a[:4]
+'code'
+>>> a[4:]
+'gnan'
+>>> a="time is very precious"
+>>> a[13:21]
+'precious'
+>>> a[0:4]
+'time'
+>>> a[8:12]
+'very'
+>>> b="work until you succeed"
+>>> b[16:23]
+'ucceed'
+>>> b[15:23]
+'succeed'
+>>> b[0:4]
+'work'
+>>> b[5:10]
+'until'
+>>> a="vizag is city of destiny"
+>>> a[-15:-11]
+'city'
+>>> a[-7:0]
+''
+>>> a[-7:]
+'destiny'
+>>> a[-24:-19]
+'vizag'
+>>> b="hi hello how are you"
+>>> a[-17:-12]
+'s cit'
+>>> b[-17:-12]
+'hello'
+>>> b[-11:-8]
+'how'

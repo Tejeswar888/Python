@@ -1,0 +1,45 @@
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> #tuple()
+>>> a=(4,5.6,"pooja",8+9j,True,False)
+>>> print(a)
+(4, 5.6, 'pooja', (8+9j), True, False)
+>>> type(a)
+<class 'tuple'>
+>>> len(a)
+6
+>>> a.index(8+9j)
+3
+>>> a.count(True)
+1
+>>> #sets()
+>>> #sets{}
+>>> a={3,6.7,"python",8+9j,True,False}
+>>> print(a)
+{False, True, 3, (8+9j), 6.7, 'python'}
+>>> type(a)
+<class 'set'>
+>>> b={6,9,3,5,6,10,9,20,9}
+>>> print(b)
+{3, 20, 5, 6, 9, 10}
+>>> #Methods of sets
+>>> a={2,3,4,5,6,7,8,9}
+>>> b={6,7,8,9}
+>>> b.issubset(a)
+True
+>>> a.issubset(b)
+False
+>>> a.issuperset(b)
+True
+>>> #union
+>>> a={1,2,3,4,5,6}
+>>> b={5,6,7,8,9,10}
+>>> a.union(b)
+{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+>>> b.union(a)
+{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+>>> #Intersection
+>>> a={3,4,5,6,7,8,9}
+>>> b={7,8,9,10,11,12}
+>>> a.intersection(b)
+{8, 9, 7}

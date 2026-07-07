@@ -1,0 +1,40 @@
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> #Data Types
+>>> integer->6,88,999
+SyntaxError: invalid syntax
+>>> #float->3.4,5.6,0.9
+>>> #string-> 'code',"python",'','codegnan'
+>>> #complex->5+9j,5j+3(complex)
+>>> #boolean->True,False(bool)
+>>> #Datatypes
+>>> a=10
+>>> type(a)
+<class 'int'>
+>>> b=5.6
+>>> type(b)
+<class 'float'>
+>>> c='code'
+>>> type(c)
+<class 'str'>
+>>> d="python"
+>>> type(d)
+<class 'str'>
+>>> e='''codegnan'''
+>>> type(e)
+<class 'str'>
+>>> f=5+9j
+>>> type(f)
+<class 'complex'>
+>>> g=4j+7
+>>> type(g)
+<class 'complex'>
+>>> h=3j
+>>> type(h)
+<class 'complex'>
+>>> a=True
+>>> type(a)
+<class 'bool'>
+>>> b=False
+>>> type(b)
+<class 'bool'>

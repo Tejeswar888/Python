@@ -1,0 +1,48 @@
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> #escape sequences
+>>> #\n->new line
+>>> #\t ->tab space
+>>> a="name\nmobilenp\tmailid\ncollage\tbranch"
+>>> print(a)
+name
+mobilenp	mailid
+collage	branch
+>>> b="name:Kasi\nmobileno:8186828797\tmailid:kothagorlakasiyadav7@gmail.com
+SyntaxError: unterminated string literal (detected at line 1)
+>>>     #replace
+>>> a="wait until you succeed"
+>>> a.replace("wait","work")
+'work until you succeed'
+>>> b="i love java"
+>>> b.replace("java","python")
+'i love python'
+>>> a
+'wait until you succeed'
+\
+>>> a
+'wait until you succeed'
+>>> #upper
+>>> a="hello"
+>>> a.upper()
+'HELLO'
+>>> #Lower()
+>>> b="HI"
+>>> b.lower()
+'hi'
+>>> c="python"
+>>> c.capitalize()
+'Python'
+>>> d="python course"
+>>> d.tittle()
+Traceback (most recent call last):
+  File "<pyshell#22>", line 1, in <module>
+    d.tittle()
+AttributeError: 'str' object has no attribute 'tittle'. Did you mean: 'title'?
+>>> d.title()
+'Python Course'
+>>> e=""i am in class"
+SyntaxError: unterminated string literal (detected at line 1)
+>>> e="i am in class"
+>>> e.title()
+'I Am In Class'

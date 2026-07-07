@@ -1,0 +1,67 @@
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+#Variables
+print(3+8)
+11
+a=10
+print(a)
+10
+b=20
+print(b)
+20
+
+x=40
+print(x)
+40
+z=50
+print(z)
+50
+a3=80
+print(a3)
+80
+>>> b123456789=300
+>>> print(b123456789)
+300
+>>> @=60
+SyntaxError: invalid syntax
+>>> _=50
+>>> print(_)
+50
+>>> if=20
+SyntaxError: invalid syntax
+>>> a=4,b=9
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+>>> a=4;b=9
+>>> print(a+b)
+13
+>>> a,b=3,4
+>>> print(a+b)
+7
+>>> a=2,3,4
+>>> print(a)
+(2, 3, 4)
+>>> a=b=c=10
+>>> print(b)
+10
+>>> first_name="pooja"
+>>> print(first_name)
+pooja
+>>> first_name="pooja"
+>>> 
+>>> fname="pooja"
+>>> lname="ch"
+>>> print(fname+lname)
+poojach
+>>> print(fname+" "+lname)
+pooja ch
+>>> print(fname,lname)
+pooja ch
+>>> a=5
+>>> print(a)
+5
+>>> del a
+>>> print(a)
+Traceback (most recent call last):
+  File "<pyshell#40>", line 1, in <module>
+    print(a)
+NameError: name 'a' is not defined. Did you mean: 'a3'?

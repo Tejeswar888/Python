@@ -1,0 +1,121 @@
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> #dict{}
+>>> a={"name":"pooja","year":2026,"month":6}
+>>> print(a)
+{'name': 'pooja', 'year': 2026, 'month': 6}
+>>> type(a)
+<class 'dict'>
+>>> b={"name","pooja"}
+>>> type(b)
+<class 'set'>
+>>> c={2027:7}
+>>> type(c)
+<class 'dict'>
+>>> a=("year":"2026","month":"july","date":"4")
+SyntaxError: invalid syntax
+>>> a=("year":2026,"month":"july","date":4)
+SyntaxError: invalid syntax
+>>> a={"year":2026,"month":"july","date":4}
+>>> a.update({("time":7})
+...          
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '('
+>>> a.update({"time":7})
+...          
+>>> a
+...          
+{'year': 2026, 'month': 'july', 'date': 4, 'time': 7}
+>>> a.update({"name":"pooja","city":"vija"})
+...          
+>>> a
+...          
+{'year': 2026, 'month': 'july', 'date': 4, 'time': 7, 'name': 'pooja', 'city': 'vija'}
+>>> #setdefault()
+...          
+>>> a={"course":"python"}
+...          
+>>> a.setdefault("duration"4}
+...          
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '('
+>>> a.setdefault("duration"4
+...              
+SyntaxError: '(' was never closed
+>>> a.setdefault("duration",4)
+...              
+4
+>>> a
+...              
+{'course': 'python', 'duration': 4}
+a.update({"name":"Kasi"})
+             
+a
+             
+{'course': 'python', 'duration': 4, 'name': 'Kasi'}
+
+a={"colour":"black","food":"biryani","icecream":"nuts"}
+             
+a["colour"]
+             
+'black'
+a["food"]
+             
+'biryani'
+a.get("food")
+             
+'biryani'
+a.get("biryani")
+             
+a
+             
+{'colour': 'black', 'food': 'biryani', 'icecream': 'nuts'}
+'biryani'
+             
+'biryani'
+
+a={"month":7,"day":"sat","time":7}
+             
+a.key()
+             
+Traceback (most recent call last):
+  File "<pyshell#34>", line 1, in <module>
+    a.key()
+AttributeError: 'dict' object has no attribute 'key'. Did you mean: 'keys'?
+a.keys
+             
+<built-in method keys of dict object at 0x00000270211E8800>
+a.values()
+             
+dict_values([7, 'sat', 7])
+a.keys()
+             
+dict_keys(['month', 'day', 'time'])
+a.items()
+             
+dict_items([('month', 7), ('day', 'sat'), ('time', 7)])
+dict_items([('month', 7), ('day', 'sat'), ('time', 7)])
+             
+Traceback (most recent call last):
+  File "<pyshell#39>", line 1, in <module>
+    dict_items([('month', 7), ('day', 'sat'), ('time', 7)])
+NameError: name 'dict_items' is not defined
+
+
+
+
+
+
+
+a={"city":"vija","country":"india","state":"ap"}
+             
+a.pop("city")
+             
+'vija'
+a
+             
+{'country': 'india', 'state': 'ap'}
+a.popitem()
+             
+('state', 'ap')
+a
+             
+{'country': 'india'}

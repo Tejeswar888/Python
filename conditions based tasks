@@ -1,0 +1,73 @@
+#Voting
+'''age=int(input("Enter the age"))
+if age>=18:
+    print("eligible for vote")
+else:
+    print("not eligible for vote")'''
+
+#even or odd
+'''num=int(input("Enter the number"))
+if num%2==0:
+    print("it is even")
+else:
+    print("IT is odd")'''
+
+
+#Leap year
+'''year=int(input("Enter the year"))
+if year%4==0:
+     print("leap year")
+else:
+    print("not leap year")'''
+
+#Guest code
+'''name=input("Enter the name")
+if name=="Kasi Yadav":
+    print("welcome",name)
+else:
+    print("welcome guest")'''
+
+
+    #Social-media login
+'''Username=input("Enter the Username")
+password=int(input("enter the password"))
+if Username=="pooja":
+    if password==1234:
+        print("login successful")
+else:
+    print("invalid credentials")'''
+
+
+    #Marks
+age=int(input("enter the age"))
+marks=int(input("enter the marks"))
+attendence=int(input("enter the attendence"))
+if age>=18:
+    print("eligible for vote")
+if marks>=80:
+    print("eligible for scholarship")
+if attendence>=70:
+    print("allow to write exams")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+          

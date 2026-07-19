@@ -1,0 +1,95 @@
+#if-elif-else conditions by using comparision operators
+'''a=8
+b=10
+if a<b:
+    print("less")
+elif b>a:
+    print("greater")
+else:
+    print("True")'''
+
+'''a=13
+b=16
+if a>b:
+    print("less")
+elif b<a:
+    print("greater")
+elif a!=b:
+    print("not equal")
+else:
+    print("true")'''
+
+#multiple-if
+'''a=20
+b=40
+if a<b:
+    print("less")
+if a>b:
+    print("Greater")
+if a!=b:
+    print("not equal")'''
+
+
+#nested-if
+'''a=4
+b=6
+if a<b:
+    print("less")
+    if b>a:
+        print("greater")'''
+
+
+'''a=15
+b=6
+if a<b:
+    print("less")
+    if b>a:
+        print("greater")
+else:
+    print("true")'''
+
+
+a=15
+b=6
+if a<b:
+    print("less")
+    if b>a:
+        print("greater")
+    else:
+        print("true")
+else:
+    print("false")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        

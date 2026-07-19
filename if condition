@@ -1,0 +1,157 @@
+#conditions
+#if-condition by using comparision operators
+'''a=2
+b=4
+if a<b:
+    print("true")'''
+
+
+'''a=2
+b=4
+if a>b:
+    print("true")'''
+    
+
+'''a=12
+b=14
+if a<=b:
+    print("true")'''
+
+
+'''a=20
+b=40
+if b>=a:
+    print("true")'''
+
+'''a=7
+b=9
+if a!=b:
+    print("not equal")'''
+
+
+'''a=5
+b=10
+if a==b:
+    print("equal")'''
+    
+
+'''a=8
+b=8
+if a==b:
+    print("true")'''
+
+
+'''a=int(input("a value"))
+b=int(input("b value"))
+if a<b:
+    print("less")'''
+
+
+'''a=int(input("a value"))
+if a<10:
+    print("less")'''
+    
+
+'''a="python"
+if a=="java":
+    print("true")'''
+
+
+
+'''a=input("data")
+if a=="java":
+    print("true")'''
+
+
+#if-condition by using logical operators
+#and,or,not
+'''a=4
+b=9
+if a<b and b>a:
+    print("less")'''
+
+
+'''a=4
+b=9
+if a<b or  b>a:
+    print("less")'''
+
+
+'''a=4
+b=9
+if not a>b:
+    print("less")'''
+
+
+
+'''a=int(input())
+b=int(input())
+if a<b and b>a:
+    print("less")'''
+
+#if-condition by using identify operators
+#is,is not
+'''a=5
+if type(a) is int:
+    print("it is int")'''
+
+'''a=int(input("a value"))
+if type(a) is int:
+    print("it is int")'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    

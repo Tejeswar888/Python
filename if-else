@@ -1,0 +1,89 @@
+#if-else conditions by using comparision operators
+'''a=3
+b=6
+if a<b:
+    print("True")
+else:
+    print("False")'''
+
+'''a=9
+b=10
+if a!=b:
+    print("not equal")
+else:
+    print("equal")'''
+
+#if else condition using logical operators
+'''a=5
+b=10
+if a<b and b>a:
+    print("true")
+else:
+    print("Error")'''
+
+'''a=3
+b=3
+if a>b or a<b:
+    print("A is greater")
+else:
+    print("Both are equal")'''
+
+'''a=17
+b=12
+if not a>b:
+    print("True")
+else:
+    print("False")'''
+
+
+#if-else conditions using identy operators
+'''a=7+8j
+if type(a) is int:
+    print("it is int")
+else:
+    print("it is not int")'''
+
+a=3.14
+if type(a) is not int:
+    print("True")
+else:
+    print("False")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
